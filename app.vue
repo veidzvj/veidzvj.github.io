@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <Header />
+  </div>
 </template>
 
 <style global>
@@ -7,3 +9,7 @@
 @tailwind components;
 @tailwind utilities;
 </style>
+
+<script setup>
+import Header from '~/components/Header.vue'
+</script>
