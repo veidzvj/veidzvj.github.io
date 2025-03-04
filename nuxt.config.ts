@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   app: {
     head: {
+      title: 'JVV Portfolio',
       link: [
         {
           rel: 'stylesheet',
