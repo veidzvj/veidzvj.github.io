@@ -4,7 +4,7 @@
       <h1 class="italic">Tethlas 2021 - 2023</h1>
       <h1 class="italic my-3">Luz 2022 - 2023</h1>
       <h1 class="italic my-3">WeFit 2024 -</h1>
-      <h1 class="italic">Skoolab 2024</h1>
+      <h1 class="italic">Skoolab 2024 -</h1>
     </div>
   </div>
 </template>
