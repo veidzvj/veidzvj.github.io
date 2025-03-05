@@ -2,7 +2,7 @@
   <div class="flex justify-center gap-9">
     <div class="w-32 h-32">
       <img
-        src="../public/images/profile-picture.jpeg"
+        src="~/public/images/profile-picture.jpeg"
         class="border border-solid border-primary rounded object-cover w-full h-full"
       />
     </div>
