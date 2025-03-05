@@ -9,7 +9,7 @@
       <p class="opacity-40 text-sm">{{ date }}</p>
     </div>
     <div>
-      <img src="~/assets/icons/github.svg" alt="GitHub" />
+      <img src="~/public/icons/github.svg" alt="GitHub" />
     </div>
   </a>
 </template>

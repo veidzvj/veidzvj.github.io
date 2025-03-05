@@ -6,7 +6,7 @@
       v-for="project in projects"
       :key="project.id"
       :name="project.name"
-      :date="project.pushed_at || 'Placeholder'"
+      :date="project.pushed_at"
       :link="project.html_url"
     />
   </div>

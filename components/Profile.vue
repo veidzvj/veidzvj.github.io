@@ -2,7 +2,7 @@
   <div class="flex justify-center gap-9">
     <div class="w-32 h-32">
       <img
-        src="../assets/images/profile-picture.jpeg"
+        src="../public/images/profile-picture.jpeg"
         class="border border-solid border-primary rounded object-cover w-full h-full"
       />
     </div>
@@ -17,17 +17,17 @@
           target="_blank"
           class="cursor-pointer"
         >
-          <img src="~/assets/icons/github.svg" alt="GitHub" />
+          <img src="~/public/icons/github.svg" alt="GitHub" />
         </a>
         <a
           href="https://www.linkedin.com/in/veidz/"
           target="_blank"
           class="cursor-pointer"
         >
-          <img src="~/assets/icons/linkedin.svg" alt="Linkedin" />
+          <img src="~/public/icons/linkedin.svg" alt="Linkedin" />
         </a>
         <a href="" class="cursor-pointer">
-          <img src="~/assets/icons/cv.svg" alt="Curriculum Vitae" />
+          <img src="~/public/icons/cv.svg" alt="Curriculum Vitae" />
         </a>
       </div>
     </div>
