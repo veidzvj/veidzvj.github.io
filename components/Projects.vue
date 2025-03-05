@@ -23,7 +23,6 @@ onMounted(async () => {
     `https://api.github.com/users/evrwaq/repos?per_page=100`
   )
   const data = await response.json()
-  console.log(data)
   projects.value = data
 })
 </script>
