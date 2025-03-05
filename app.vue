@@ -3,7 +3,9 @@
     <Header />
     <Profile />
     <Companies />
-    <Project />
+    <div class="flex justify-center items-center mt-16">
+      <Projects />
+    </div>
   </div>
 </template>
 
@@ -17,5 +19,5 @@
 import Header from '~/components/Header.vue'
 import Profile from '~/components/Profile.vue'
 import Companies from '~/components/Companies.vue'
-import Project from '~/components/Project.vue'
+import Projects from './components/Projects.vue'
 </script>
