@@ -2,8 +2,8 @@
   <div class="flex justify-center gap-9">
     <div class="w-32 h-32">
       <img
-        src="~/assets/images/profile-picture.jpeg"
-        class="border border-solid border-(--primary-color) rounded object-cover w-full h-full"
+        src="~/public/images/profile-picture.jpeg"
+        class="border border-solid border-primary rounded object-cover w-full h-full"
       />
     </div>
     <div class="flex flex-col justify-between">

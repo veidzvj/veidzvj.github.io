@@ -1,12 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    './components/**/*.vue',
-    './pages/**/*.vue',
-    './layouts/**/*.vue',
-    './index.vue',
-    './nuxt.config.ts',
-  ],
+  content: [],
   theme: {
     extend: {
       backgroundColor: {
