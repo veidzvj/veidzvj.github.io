@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+@layer utilities {
+  .font-logo {
+    font-family: 'Playwrite IT Moderna', cursive;
+    color: var(--primary-color);
+  }
+}
+
+@theme {
+  --color-primary: #14da86;
+}

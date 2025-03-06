@@ -1,8 +1,7 @@
-* {
-  font-family: var(--font-family);
-}
+@import 'tailwindcss';
 
 body {
   background-color: var(--bg-color);
   color: var(--white-color);
+  font-family: var(--font-family);
 }
