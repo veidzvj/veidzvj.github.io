@@ -1,3 +1,4 @@
+import Button from '../components/Button'
 import { words } from '../constants'
 
 function Hero() {
@@ -38,6 +39,11 @@ function Hero() {
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi, I'm John, a developer based in Brazil with a passion for code.
             </p>
+            <Button
+              id="button"
+              className="md:w-80 md:h-16 w-60 h-12"
+              text="See my Work"
+            />
           </div>
         </header>
       </div>
