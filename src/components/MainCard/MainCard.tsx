@@ -1,6 +1,7 @@
 import './MainCard.css'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience'
+import Stacks from './components/Stacks/Stacks'
 import Summary from './components/Summary/Summary'
 
 function MainCard() {
@@ -9,6 +10,7 @@ function MainCard() {
       <Summary />
       <About />
       <Experience />
+      <Stacks />
     </div>
   )
 }
