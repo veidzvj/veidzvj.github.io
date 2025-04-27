@@ -1,7 +1,19 @@
 .summary-container {
   display: flex;
+  gap: 1rem;
+
+  img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 0.2rem;
+  }
+}
+
+.summary-right-container {
+  display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  justify-content: space-between;
 }
 
 .summary-title {
@@ -12,11 +24,8 @@
 
   h2 {
     font-size: 1.4rem;
+    color: #b0b0b0;
   }
-}
-
-.summary-text {
-  font-size: 0.8rem;
 }
 
 .summary-links {
