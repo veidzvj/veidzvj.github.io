@@ -1,9 +1,10 @@
 import './MainCard.css'
+import Summary from './components/Summary/Summary'
 
 function MainCard() {
   return (
     <div className="main-card-container">
-      <div></div>
+      <Summary />
     </div>
   )
 }

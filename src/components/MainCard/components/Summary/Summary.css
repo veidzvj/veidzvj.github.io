@@ -1,0 +1,29 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.summary-title {
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 0.4rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+.summary-text {
+  font-size: 0.8rem;
+}
+
+.summary-links {
+  display: flex;
+  gap: 0.5rem;
+
+  a {
+    color: #e4e4e4;
+  }
+}
