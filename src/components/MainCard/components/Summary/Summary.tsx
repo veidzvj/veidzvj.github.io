@@ -21,6 +21,7 @@ function Summary() {
             href="https://github.com/evrwaqe"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Acessar GitHub de João Victor Veidz"
           >
             <SiGithub size={24} />
           </a>
@@ -28,10 +29,15 @@ function Summary() {
             href="https://www.linkedin.com/in/veidz/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Acessar LinkedIn de João Victor Veidz"
           >
             <SiLinkedin size={24} />
           </a>
-          <a href="src/assets/cv.pdf" download>
+          <a
+            href="src/assets/cv.pdf"
+            download
+            aria-label="Baixar currículo de João Victor Veidz"
+          >
             <FiFileText size={24} />
           </a>
         </div>
