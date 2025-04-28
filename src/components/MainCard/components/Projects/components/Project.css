@@ -1,0 +1,23 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f0e10;
+  gap: 0.825rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+
+  h1 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-size: 0.825rem;
+    color: #b0b0b0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #722f37;
+  }
+}
