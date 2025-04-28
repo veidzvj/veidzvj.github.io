@@ -2,15 +2,21 @@ import './Project.css'
 
 type ProjectProps = {
   name: string
-  description: string
+  description?: string
+  url: string
 }
 
-function Project({ name, description }: ProjectProps) {
+function Project({ name, description, url }: ProjectProps) {
   return (
-    <div className="project-container">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="project-container"
+    >
       <h1>{name}</h1>
       <p>{description}</p>
-    </div>
+    </a>
   )
 }
 
