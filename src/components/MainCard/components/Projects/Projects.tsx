@@ -1,24 +1,13 @@
 import { useEffect, useState } from 'react'
 import Project from './components/Project'
+import { fetchGithubRepos, Repo } from '../../../../services/githubService'
 import './Projects.css'
 
-type Repos = {
-  id: number
-  name: string
-  description: string
-  html_url: string
-}
-
 function Projects() {
-  const [repos, setRepos] = useState<Repos[]>([])
+  const [repos, setRepos] = useState<Repo[]>([])
 
   useEffect(() => {
-    fetch('https://api.github.com/users/evrwaqe/repos')
-      .then((response) => response.json())
-      .then((data) => {
-        setRepos(data)
-      })
-      .catch((error) => console.error('Error searching for projects:', error))
+    fetchGithubRepos().then((data) => setRepos(data))
   }, [])
 
   return (
