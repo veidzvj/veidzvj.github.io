@@ -33,6 +33,10 @@
   gap: 0.5rem;
 
   a {
-    color: #772f37;
+    color: #b0b0b0;
+
+    &:hover {
+      color: #722f37;
+    }
   }
 }
