@@ -6,7 +6,7 @@ function Summary() {
   return (
     <div className="summary-container">
       <img
-        src="src/assets/profile.jpg"
+        src="/profile.jpg"
         alt="Foto de perfil de João Victor Veidz, engenheiro de software, usando óculos, barba curta, cabelo ondulado, com fundo de árvores verdes."
       />
 
@@ -34,7 +34,7 @@ function Summary() {
             <SiLinkedin size={24} />
           </a>
           <a
-            href="src/assets/cv.pdf"
+            href="/cv.pdf"
             download
             aria-label="Baixar currículo de João Victor Veidz"
           >
