@@ -4,7 +4,7 @@ Bem-vindo ao meu portfólio!
 
 Este repositório contém o código-fonte do meu site pessoal, desenvolvido para apresentar minha trajetória profissional, habilidades técnicas e projetos públicos.
 
-🌐 Acesse o site publicado: [https://evrwaqe.github.io](https://evrwaqe.github.io)
+🌐 Acesse o site publicado: [https://veidzvj.github.io](https://veidzvj.github.io)
 
 ## 👨‍💻 Sobre Mim
 
