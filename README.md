@@ -14,12 +14,12 @@ Tenho experiência com diversas tecnologias modernas, arquitetura de sistemas, p
 
 ## 🚀 Principais Tecnologias e Conhecimentos
 
-- **Linguagens:** JavaScript, TypeScript, Python, C#, Go, SQL
-- **Frameworks:** Node.js, NestJS, .NET, Django, React, Next.js
+- **Linguagens:** JavaScript, TypeScript, Python, C#, Go, Java
+- **Frameworks:** Node.js, NestJS, .NET, Django, React, Next.js, Spring
 - **DevOps:** Docker, Kubernetes, AWS, GitHub Actions, CI/CD
 - **Arquitetura:** Microsserviços, Clean Architecture, Event-Driven Systems
-- **Testes:** TDD, Testes Unitários, Testes de Integração, Testes End-to-End
-- **Banco de Dados:** PostgreSQL, MongoDB, Redis
+- **Testes:** TDD, Testes Unitários, Testes de Integração, Testes End-to-End, Jest, NUnit, RTL, Cypress, JUnit
+- **Banco de Dados:** PostgreSQL, MongoDB, Redis, Firebase
 
 ## 📂 Estrutura do Projeto
 
