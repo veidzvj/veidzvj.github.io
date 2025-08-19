@@ -12,7 +12,7 @@ async function fetchGithubRepos(): Promise<Repo[]> {
     return cachedRepos
   }
 
-  const response = await fetch(`https://api.github.com/users/evrwaqe/repos`)
+  const response = await fetch(`https://api.github.com/users/veidzvj/repos`)
   if (!response.ok) {
     throw new Error('Error searching for repos')
   }
